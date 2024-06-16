@@ -16,25 +16,25 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 
-var box = document.querySelector(".box img")
-var shopnow = document.querySelector(".shopnow");
+// var box = document.querySelector(".box img")
+// var shopnow = document.querySelector(".shopnow");
 
-box.addEventListener("mousemove", function (dets) {
-  setTimeout(() => {
-    shopnow.style.left = dets.x + "px"
-    shopnow.style.top = dets.y + "px"
-    shopnow.style.opacity = 1
-
-
-  }, 0);
+// box.addEventListener("mousemove", function (dets) {
+//   setTimeout(() => {
+//     shopnow.style.left = dets.x + "px"
+//     shopnow.style.top = dets.y + "px"
+//     shopnow.style.opacity = 1
 
 
+//   }, 0);
 
-  box.addEventListener("mouseleave", function () {
-    shopnow.style.opacity = 0
-  })
 
-})
+
+//   box.addEventListener("mouseleave", function () {
+//     shopnow.style.opacity = 0
+//   })
+
+// })
 
 
 

@@ -170,8 +170,22 @@ body {
     position: relative;
     transition: 0.4s;
 }
+#explore-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px;
+}
 
-.shopnow {
+#explore-button a{
+  font-size: 42px;
+  padding: 25px 22px;
+  border-radius: 49px;
+  color: black;
+  background-color: white;
+}
+
+/* .shopnow {
     position: absolute;
     top: 10%;
     left: 10%;
@@ -190,7 +204,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 10px;
-}
+} */
 
 .box {
     width: 26vw;
